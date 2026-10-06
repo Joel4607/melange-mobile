@@ -31,7 +31,14 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env*
+!.env.example
+
+# local Convex state and installed agent tooling
+.convex/
+.agents/
+.claude/skills/
+skills-lock.json
 
 # typescript
 *.tsbuildinfo

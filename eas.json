@@ -1,0 +1,20 @@
+{
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": { "buildType": "apk" }
+    },
+    "preview": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "environment": "preview",
+      "android": { "buildType": "apk" },
+      "env": {
+        "EXPO_PUBLIC_MAP_RENDERER": "leaflet",
+        "EXPO_PUBLIC_CONVEX_URL": "https://agile-capybara-94.convex.cloud",
+        "EXPO_PUBLIC_CONVEX_SITE_URL": "https://agile-capybara-94.convex.site"
+      }
+    }
+  }
+}

@@ -1,4 +1,8 @@
-# Welcome to your Expo app 👋
+# Melange mobile
+
+Mobile application for Melange, with buyer and runner workspaces backed by Convex.
+
+Project scope and outstanding core work: [PROJECT-ROADMAP.md](PROJECT-ROADMAP.md).
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -10,7 +14,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Copy `.env.example` to `.env.local` and set the public Convex cloud/site URLs for your deployment. Local environment files and signing credentials are excluded from Git. When developing backend functions, run `npx convex dev` in a separate terminal and connect to the intended Convex project.
+
+3. Start the app
 
    ```bash
    npx expo start
